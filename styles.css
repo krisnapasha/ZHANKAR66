@@ -27,10 +27,12 @@ nav a {
     background-color: #FF0000;
     padding: 10px;
     transition: transform 0.3s ease-in-out;
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
 }
 
 nav a:hover {
     transform: scale(1.1);
+    background-color: #E50914; /* Mengubah warna latar saat dihover */
 }
 
 nav img {
@@ -38,4 +40,15 @@ nav img {
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+.middle-finger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.middle-finger svg {
+    transform: rotate(180deg);
 }
