@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Body dengan latar belakang hitam */
+body {
+    background-color: #000;
+    color: #fff; /* Warna teks putih untuk kontras */
+    font-family: Arial, sans-serif;
+}
+
+/* Mengatur warna merah glow in the dark untuk tautan */
+a {
+    color: #ff0000; /* Merah */
+    text-decoration: none;
+}
+
+/* Efek glow in the dark untuk tautan saat dihover */
+a:hover {
+    color: #ff4d4d; /* Merah lebih terang */
+    text-shadow: 0 0 10px #ff4d4d; /* Efek glow */
+}
+
+/* Konten tengah dengan padding */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ikonya */
+.icon {
+    filter: drop-shadow(0 0 10px #ff0000); /* Efek glow merah */
+    transition: filter 0.3s ease; /* Animasi ketika dihover */
+}
+
+/* Efek glow in the dark saat dihover pada ikon */
+.icon:hover {
+    filter: drop-shadow(0 0 20px #ff0000); /* Efek glow lebih kuat */
+}
